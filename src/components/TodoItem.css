@@ -1,0 +1,20 @@
+.todo-item {
+  width: 80%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 6px 4px;
+}
+.todo-item p {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #2f2f2f;
+}
+.todo-item--done {
+  text-decoration: line-through;
+  font-weight: 600;
+}
